@@ -2,13 +2,19 @@
 title: "test markdown"
 author: "Robert Huang"
 date: "10/2/2018"
-output: github_document
+output: html_document
 ---
 
 ```{r}
 
 3 + 5
 sample(5)
+
+```
+
+```{r}
+
+plot(sample(100))
 
 ```
 
